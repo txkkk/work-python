@@ -1,0 +1,16 @@
+
+a = 5
+b = 7
+c = a == b
+print(c)
+example1 = "this"
+print(example1 + " " + str(b-a))
+example2 = [a, b, c, example1]
+example3 = set(example2)
+print(type(example3))
+example4_1 = ("pencil", "book", "paper")
+example4_2 = (1, 2, 3)
+example4_3 = example4_1 + example4_2
+example4_4 = list(example4_3)
+print(example4_4)
+example5 = {"str_int": 10, "str_str": "hello", 5: "world", True: None, False: [1, 2, 3], 3.14: {"key": "value"}, "key": "value", 2: 4, example4_1: example4_2}
